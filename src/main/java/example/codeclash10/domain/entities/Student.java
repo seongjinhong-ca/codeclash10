@@ -4,4 +4,7 @@ public class Student {
     Integer studentId;
     String name;
     Integer studnetCodeId;
+
+    public Student() {
+    }
 }

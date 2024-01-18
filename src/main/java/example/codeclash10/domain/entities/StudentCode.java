@@ -5,4 +5,10 @@ public class StudentCode {
     private String fileContentUrl;
     private Integer roundId;
     private Integer gameId;
+
+    public StudentCode() {
+    }
+    public StudentCode(String filePath){
+        fileContentUrl = filePath;
+    }
 }
